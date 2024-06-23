@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    padding-top: 100px;
+}
+
+.nav-bar{
+    height: 80px;
+    background-color: #DB8C33;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.nav-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    color: white;
+}
+img{
+    height: 50px;
+    width: 50px;
+    padding-left: 50px;
+}
+li{
+    display: inline-block;
+    margin-right: 100px;
+}
+.form{
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    padding: 30px;
+    background-color: #E9E6E6;
+    color: #7D8077;
+    
+}
+.form input{
+    background-color: #E9E6E6;
+}
+p{
+    padding-left: 10px;
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.flex-l1 input{
+    width: 500px;
+    height: 30PX;
+    border-radius: 10px;
+}
+.flex-l2 input{
+    width: 320px;
+    height: 30PX;
+    border-radius: 10px;
+}
+.flex-l3i input{
+    width: 200px;
+    height: 30PX;
+    border-radius: 10px;
+}
+.flex-l3ii input{
+    width: 790px;
+    height: 30PX;
+    border-radius: 10px;
+}
+.button{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.btn{
+    position: absolute;
+    right: 260px;
+    width: 320px;
+    height: 40px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-color: #81CB80;
+}
+
+h2{
+    margin-left: 50px;
+}
+.service{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.services {
+    background-color:#DB8C33 ;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    color: white;
+}
+.services img{
+    display: flex;
+    padding-top: 60px;
+    padding-left: 120px;
+}
+h5{
+    text-align: center;
+    padding: 30px;
+}
+.footer{
+    margin-top: 100px;
+    height: 100px;
+    text-align: center;
+    padding-top: 100px;
+    background-color: #D9D9D9;
+    font-size: 20px;
+}
+i {
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 50px;
+    background-color: #DB8C33;
+    position: fixed;
+    z-index: 1;
+    right: 30px;
+    bottom: 30px;
+    color: white;
+}
